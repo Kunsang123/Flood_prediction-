@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+catboost
+fastapi
+uvicorn
+redis
+joblib
+python-dotenv
+prometheus-client
+pydantic==1.10.15
+dill
+psycopg2-binary
+scipy
+sqlalchemy
+pymysql
+xgboost

@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flood-prediction-api
+  labels:
+    app: flood-prediction
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: flood-prediction
+  template:
+    metadata:
+      labels:
+        app: flood-prediction
+    spec:
+      containers:
+      - name: api
+        image: flood-prediction-api:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: MYSQL_HOST
+          value: "mariadb"
+        - name: MYSQL_PORT
+          value: "3306"
+        - name: MYSQL_USER
+          value: "flood_user"
+        - name: MYSQL_PASSWORD
+          value: "flood_password"
+        - name: MYSQL_DATABASE
+          value: "flood_prediction"
+        - name: REDIS_HOST
+          value: "redis"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: MLFLOW_TRACKING_URI
+          value: "http://mlflow:5000"
+        - name: API_TOKEN
+          value: "secret-token"
+        - name: MODEL_TYPE
+          value: "xgboost"
+        - name: ARTIFACTS_PATH
+          value: "/app/artifacts"
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "1000m"

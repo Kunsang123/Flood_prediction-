@@ -1,0 +1,175 @@
+{
+  "timestamp": "2026-02-18T03:12:11.307224",
+  "reference_samples": 35000,
+  "current_samples": 35000,
+  "ks_threshold": 0.05,
+  "psi_threshold": 0.2,
+  "features": {
+    "MonsoonIntensity": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "TopographyDrainage": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "RiverManagement": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "Deforestation": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "Urbanization": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "ClimateChange": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "DamsQuality": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "Siltation": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "AgriculturalPractices": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "Encroachments": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "IneffectiveDisasterPreparedness": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "DrainageSystems": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "CoastalVulnerability": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "Landslides": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "Watersheds": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "DeterioratingInfrastructure": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "PopulationScore": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "WetlandLoss": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "InadequatePlanning": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "PoliticalFactors": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "MonsoonIntensity_x_Urbanization": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "Deforestation_x_ClimateChange": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    },
+    "DrainageSystems_x_Urbanization": {
+      "ks_statistic": 0.0,
+      "ks_p_value": 1.0,
+      "ks_drift": false,
+      "psi_value": 0.0,
+      "high_psi": false
+    }
+  },
+  "average_psi": 0.0,
+  "drift_detected": false,
+  "retrain_recommended": false,
+  "drifted_features": [],
+  "high_psi_features": []
+}

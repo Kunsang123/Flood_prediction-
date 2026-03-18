@@ -1,0 +1,4 @@
+2026-02-18 03:12:10,557 - __main__ - INFO - Starting Multi-dimensional Drift Detection (KS + PSI)
+C:\Users\LEGION\AppData\Local\Programs\Python\Python314\Lib\site-packages\evidently\_pydantic_compat.py:38: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1 import BaseConfig  # type: ignore[assignment,no-redef]
+2026-02-18 03:12:11,452 - __main__ - ERROR - Failed to generate Evidently report: unable to infer type for attribute "relative"

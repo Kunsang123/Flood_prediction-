@@ -1,0 +1,175 @@
+{
+  "timestamp": "2026-02-14T06:24:16.887159",
+  "reference_samples": 35000,
+  "current_samples": 7500,
+  "ks_threshold": 0.05,
+  "psi_threshold": 0.2,
+  "features": {
+    "MonsoonIntensity": {
+      "ks_statistic": 0.011799999999999977,
+      "ks_p_value": 0.35337520156359603,
+      "ks_drift": false,
+      "psi_value": 0.0010324668686688262,
+      "high_psi": false
+    },
+    "TopographyDrainage": {
+      "ks_statistic": 0.00864761904761907,
+      "ks_p_value": 0.7414412689288503,
+      "ks_drift": false,
+      "psi_value": 0.0019655794233712585,
+      "high_psi": false
+    },
+    "RiverManagement": {
+      "ks_statistic": 0.011561904761904773,
+      "ks_p_value": 0.37807883704871925,
+      "ks_drift": false,
+      "psi_value": 0.001956333717707993,
+      "high_psi": false
+    },
+    "Deforestation": {
+      "ks_statistic": 0.00962857142857143,
+      "ks_p_value": 0.6123822326907633,
+      "ks_drift": false,
+      "psi_value": 0.002853460379000392,
+      "high_psi": false
+    },
+    "Urbanization": {
+      "ks_statistic": 0.006276190476190435,
+      "ks_p_value": 0.9668539450022486,
+      "ks_drift": false,
+      "psi_value": 0.00085749207053286,
+      "high_psi": false
+    },
+    "ClimateChange": {
+      "ks_statistic": 0.00371428571428567,
+      "ks_p_value": 0.9999946142623325,
+      "ks_drift": false,
+      "psi_value": 0.00018685079504048894,
+      "high_psi": false
+    },
+    "DamsQuality": {
+      "ks_statistic": 0.005961904761904724,
+      "ks_p_value": 0.979704054021213,
+      "ks_drift": false,
+      "psi_value": 0.0014069577553239415,
+      "high_psi": false
+    },
+    "Siltation": {
+      "ks_statistic": 0.012476190476190474,
+      "ks_p_value": 0.2891314378511931,
+      "ks_drift": false,
+      "psi_value": 0.0011871873771926364,
+      "high_psi": false
+    },
+    "AgriculturalPractices": {
+      "ks_statistic": 0.008885714285714275,
+      "ks_p_value": 0.7105464833070286,
+      "ks_drift": false,
+      "psi_value": 0.0011872479992799615,
+      "high_psi": false
+    },
+    "Encroachments": {
+      "ks_statistic": 0.005428571428571449,
+      "ks_p_value": 0.9928914585299828,
+      "ks_drift": false,
+      "psi_value": 0.0007600824260379668,
+      "high_psi": false
+    },
+    "IneffectiveDisasterPreparedness": {
+      "ks_statistic": 0.005228571428571471,
+      "ks_p_value": 0.9956159009393424,
+      "ks_drift": false,
+      "psi_value": 0.0010387148431823625,
+      "high_psi": false
+    },
+    "DrainageSystems": {
+      "ks_statistic": 0.009571428571428564,
+      "ks_p_value": 0.6199259905655244,
+      "ks_drift": false,
+      "psi_value": 0.0010722571891794174,
+      "high_psi": false
+    },
+    "CoastalVulnerability": {
+      "ks_statistic": 0.008219047619047681,
+      "ks_p_value": 0.7950725346278613,
+      "ks_drift": false,
+      "psi_value": 0.0006081367573564229,
+      "high_psi": false
+    },
+    "Landslides": {
+      "ks_statistic": 0.005933333333333346,
+      "ks_p_value": 0.9806697753919664,
+      "ks_drift": false,
+      "psi_value": 0.0009734699523726984,
+      "high_psi": false
+    },
+    "Watersheds": {
+      "ks_statistic": 0.009561904761904771,
+      "ks_p_value": 0.6211845031526988,
+      "ks_drift": false,
+      "psi_value": 0.0006636127858969428,
+      "high_psi": false
+    },
+    "DeterioratingInfrastructure": {
+      "ks_statistic": 0.009333333333333305,
+      "ks_p_value": 0.6514543652355785,
+      "ks_drift": false,
+      "psi_value": 0.0015583592247732521,
+      "high_psi": false
+    },
+    "PopulationScore": {
+      "ks_statistic": 0.005780952380952387,
+      "ks_p_value": 0.9852891659629522,
+      "ks_drift": false,
+      "psi_value": 0.0004816208056718156,
+      "high_psi": false
+    },
+    "WetlandLoss": {
+      "ks_statistic": 0.005647619047619068,
+      "ks_p_value": 0.9886389038546327,
+      "ks_drift": false,
+      "psi_value": 0.0009929792511316996,
+      "high_psi": false
+    },
+    "InadequatePlanning": {
+      "ks_statistic": 0.007885714285714274,
+      "ks_p_value": 0.8341359619292329,
+      "ks_drift": false,
+      "psi_value": 0.0007400867331713488,
+      "high_psi": false
+    },
+    "PoliticalFactors": {
+      "ks_statistic": 0.005828571428571405,
+      "ks_p_value": 0.9839394988464885,
+      "ks_drift": false,
+      "psi_value": 0.0009368016903663272,
+      "high_psi": false
+    },
+    "MonsoonIntensity_x_Urbanization": {
+      "ks_statistic": 0.010685714285714187,
+      "ks_p_value": 0.47774344564865534,
+      "ks_drift": false,
+      "psi_value": 0.002254647007797766,
+      "high_psi": false
+    },
+    "Climate_Vulnerability_Index": {
+      "ks_statistic": 0.011885714285714277,
+      "ks_p_value": 0.34474493829819,
+      "ks_drift": false,
+      "psi_value": 0.002058432944053743,
+      "high_psi": false
+    },
+    "Infrastructure_Stability_Index": {
+      "ks_statistic": 0.006161904761904757,
+      "ks_p_value": 0.972011811678801,
+      "ks_drift": false,
+      "psi_value": 0.0010015732589174066,
+      "high_psi": false
+    }
+  },
+  "average_psi": 0.0012075804893925013,
+  "drift_detected": false,
+  "retrain_recommended": false,
+  "drifted_features": [],
+  "high_psi_features": []
+}
